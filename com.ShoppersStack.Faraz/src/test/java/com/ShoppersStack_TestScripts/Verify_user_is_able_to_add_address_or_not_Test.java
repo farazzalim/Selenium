@@ -49,6 +49,7 @@ public class Verify_user_is_able_to_add_address_or_not_Test extends Base_Test {
 		addressform.getAddAddressBtn().click();
 		test.log(Status.INFO,"Logout successdfull");
 		System.out.println("Done");
+		
 	}
 
 }
