@@ -48,6 +48,7 @@ public class Verify_user_is_able_to_add_address_or_not_Test extends Base_Test {
 		addressform.getPhoneNumTf().sendKeys(file.readExcelData("Sheet1", 1, 5));
 		addressform.getAddAddressBtn().click();
 		test.log(Status.INFO,"Logout successdfull");
+		System.out.println("Done");
 	}
 
 }
